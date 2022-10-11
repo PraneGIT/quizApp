@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f7drk2hiscm81"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".finish_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif-monospace"
+        />
+    <TextView
+        android:id="@+id/final_text"
+        android:layout_marginTop="78dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9800"
+        android:gravity="center"
+        android:text="lmao what a loser is "
+        android:textSize="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/final_image"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:src="@drawable/less"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/final_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="final score is "
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        />
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#050B2C"
+        android:alpha="0.5"
+        android:text="Done"/>
+
+</LinearLayout>
